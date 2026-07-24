@@ -1,0 +1,62 @@
+{
+ "creation": "2026-07-24 12:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "users",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "HAWC CRM",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lead",
+   "link_count": 0,
+   "link_type": "DocType",
+   "link_to": "Lead",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Deal",
+   "link_count": 0,
+   "link_type": "DocType",
+   "link_to": "Deal",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Activity Log",
+   "link_count": 0,
+   "link_type": "DocType",
+   "link_to": "Activity Log",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-07-24 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "HAWC CRM",
+ "name": "HAWC CRM",
+ "owner": "Administrator",
+ "public": 1,
+ "roles": [
+  {
+   "role": "CRM Admin"
+  },
+  {
+   "role": "CRM Manager"
+  },
+  {
+   "role": "CRM Sales Rep"
+  }
+ ],
+ "sequence_id": 1,
+ "title": "HAWC CRM"
+}

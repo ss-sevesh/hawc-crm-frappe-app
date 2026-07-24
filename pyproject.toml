@@ -1,0 +1,20 @@
+[project]
+name = "hawc_crm"
+version = "1.0.0"
+description = "CRM app for HAWC"
+authors = [
+    { name = "Developer", email = "dev@example.com"}
+]
+dependencies = [
+    "frappe~=15.0.0"
+]
+require-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/developer/hawc_crm"
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
