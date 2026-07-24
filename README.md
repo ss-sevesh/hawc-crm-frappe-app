@@ -24,7 +24,7 @@ Run these commands in order from your Frappe bench directory (`~/frappe-bench`):
    Since this is a custom repo, clone it into your apps directory:
    ```bash
    cd ~/frappe-bench/apps
-   git clone <YOUR_REPO_URL> hawc_crm
+   git clone https://github.com/ss-sevesh/hawc-crm-frappe-app.git hawc_crm
    ```
 
 2. **Install the app**:
