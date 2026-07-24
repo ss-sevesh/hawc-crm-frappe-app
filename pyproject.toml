@@ -3,7 +3,7 @@ name = "hawc_crm"
 version = "1.0.0"
 description = "CRM app for HAWC"
 authors = [
-    { name = "Developer", email = "dev@example.com"}
+    { name = "ss-sevesh", email = "ss-sevesh@github.local"}
 ]
 dependencies = [
     "frappe~=15.0.0"
@@ -13,7 +13,7 @@ readme = "README.md"
 license = { text = "MIT" }
 
 [project.urls]
-Homepage = "https://github.com/developer/hawc_crm"
+Homepage = "https://github.com/ss-sevesh/hawc-crm-frappe-app"
 
 [build-system]
 requires = ["flit_core >=3.4,<4"]

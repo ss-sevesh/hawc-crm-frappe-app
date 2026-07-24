@@ -1,0 +1,11 @@
+*.pyc
+__pycache__/
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+node_modules/
+.env
+site_config.json
