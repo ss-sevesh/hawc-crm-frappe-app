@@ -53,12 +53,7 @@ Run these commands in order from your Frappe bench directory (`~/frappe-bench`):
    - Managers have full read/write access.
    - Admins have full system access.
 
-## Screenshots
-*(Add your screenshots to the `screenshots/` folder and link them here)*
 
-- **Dashboard**: `screenshots/dashboard.png`
-- **Lead View**: `screenshots/lead.png`
-- **Deal Pipeline**: `screenshots/pipeline.png`
 
 ## Video Demo
 A demonstration video of this application in action will be uploaded to the `demo_video/` directory.
