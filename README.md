@@ -16,33 +16,29 @@ A complete CRM application built as a custom Frappe app. Designed to handle Lead
 - **Database**: MariaDB 10.6+
 - **Cache**: Redis 7+
 
-## Installation
+## Installation (Docker)
 
-Run these commands in order from your Frappe bench directory (`~/frappe-bench`):
+This app is fully Dockerized for easy setup. You do not need to install Frappe natively.
 
-1. **Get the app**:
-   Since this is a custom repo, clone it into your apps directory:
+1. **Clone the repository**:
    ```bash
-   cd ~/frappe-bench/apps
-   git clone https://github.com/ss-sevesh/hawc-crm-frappe-app.git hawc_crm
+   git clone https://github.com/ss-sevesh/hawc-crm-frappe-app.git
+   cd hawc-crm-frappe-app
    ```
 
-2. **Install the app**:
+2. **Start the environment**:
    ```bash
-   cd ~/frappe-bench
-   bench --site hawc.localhost install-app hawc_crm
+   docker compose up -d
    ```
+   *This will spin up MariaDB, Redis, and a Frappe container. It will automatically initialize a new bench, install the app, and start the development server.*
 
-3. **Migrate the database**:
-   ```bash
-   bench migrate
-   ```
-
-4. **Clear cache and restart**:
-   ```bash
-   bench --site hawc.localhost clear-cache
-   bench restart
-   ```
+3. **Access the CRM**:
+   Wait a few minutes for the setup script to finish, then go to:
+   **http://localhost:8000**
+   
+   **Default Login:**
+   - **Username:** Administrator
+   - **Password:** admin
 
 ## Role Setup Guide
 
