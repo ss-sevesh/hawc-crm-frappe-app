@@ -20,6 +20,7 @@ services:
       - "8000:8000"
     volumes:
       - .:/home/frappe/hawc_crm_src
+      - bench-data:/home/frappe/mybench
     command: >
       bash -c "
       echo 'Starting Frappe Setup...';
@@ -37,6 +38,8 @@ services:
         bench get-app hawc_crm apps/hawc_crm;
       fi;
       if [ ! -f 'sites/hawc.localhost/site_config.json' ]; then
+        echo 'Waiting for MariaDB to be ready...';
+        sleep 10;
         bench new-site hawc.localhost --admin-password admin --mariadb-root-password root --install-app hawc_crm;
         bench use hawc.localhost;
       fi;
@@ -50,3 +53,4 @@ services:
 
 volumes:
   mariadb-data:
+  bench-data:
