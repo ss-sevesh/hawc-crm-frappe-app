@@ -61,7 +61,7 @@ Run these commands in order from your Frappe bench directory (`~/frappe-bench`):
 - **Deal Pipeline**: `screenshots/pipeline.png`
 
 ## Video Demo
-[Watch the Demo Here](#) *(Placeholder link)*
+A demonstration video of this application in action will be uploaded to the `demo_video/` directory.
 
 ## License
 MIT
